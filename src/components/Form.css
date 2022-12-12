@@ -1,0 +1,70 @@
+.Form-bg {
+  background-image: url("../images/form\ background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.form-content {
+  background-color: hsla(223, 37%, 79%, 0.6);
+  padding-block: 100px;
+  padding-inline: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form__title {
+  font-size: 1.8rem;
+  color: rgb(32, 32, 32);
+  font-weight: 600;
+}
+.form__wrapper {
+  padding: 3rem 0;
+}
+.form__group label {
+  padding: 20px;
+  font-size: 1.6rem;
+  font-family: poppins;
+  font-weight: 800;
+}
+.age-col {
+  margin-left: 67px;
+}
+.mon-col {
+  margin-left: 42px;
+}
+.bat-col {
+  margin-left: 30px;
+}
+.fee-col {
+  margin-left: 62px;
+}
+
+.form__group input,
+.form__group select {
+  width: 50%;
+  border: 2px;
+  background-color: rgb(222, 232, 225);
+  font-size: 1.4rem;
+  font-family: Raleway;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 20px;
+  color: rgb(34, 32, 32);
+}
+
+.pay-btn {
+  background-color: #4caf50; 
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 180px;
+}

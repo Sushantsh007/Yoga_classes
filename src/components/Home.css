@@ -1,0 +1,47 @@
+.home-bg {
+  background-image: url("../images/home\ background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.home-content-header{
+  
+  margin-inline: auto;
+  color: hsl(0, 4%, 18%);
+  line-height: 1.5;
+  margin-block-end: 20px;
+
+}
+.home-content {
+  background-color: hsla(224, 34%, 13%, 0.6);
+  padding-block: 380px;
+  padding-inline: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.home-content-title {
+  max-width: 16ch;
+  margin-inline: auto;
+  color: hsl(0, 38%, 94%);
+  line-height: 1.5;
+  margin-block-end: 20px;
+}
+.span {
+  display: inline-block;
+  color: hsl(142, 76%, 36%);
+}
+.enroll-btn{
+    padding: 12px 24px;
+  /* color: hsl(224, 34%, 13%);; */
+  width: 200px;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: 0.25s ease;
+  color: hsl(0, 0%, 100%);;
+  background-color: hsl(142, 76%, 36%);
+}
+.enroll-btn:is(:hover, :focus) { color: hsl(142, 60%, 74%); }
